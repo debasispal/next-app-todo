@@ -87,17 +87,48 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+.main {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+.btn1 {
+  background-color: blue;
+  margin-left: 20px;
+}
+.task {
+  font-size: bold;
+  color: blueviolet
+}
+.li {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.active {
+  color: green;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: #0885ff33;
+  padding-left: 20px;
+  margin: 20px 400px 40px 400px;
+}
+
+.navbar a {
+  margin-right: 30px;
+}
+
+.navbar a.active {
+  font-weight: bold;
 }
 
 @media (prefers-color-scheme: dark) {
