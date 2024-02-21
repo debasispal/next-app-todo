@@ -122,6 +122,10 @@ a {
   padding-left: 20px;
   margin: 20px 400px 40px 400px;
 }
+.errorMessage {
+  color: red;
+  font-size: 14px; 
+}
 
 .navbar a {
   margin-right: 30px;
