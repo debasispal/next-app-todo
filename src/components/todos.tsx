@@ -24,8 +24,9 @@ function Todos() {
             return (
                 <li key={todo.id} className='li' >
                   <input type='checkbox' name='' id={`todo-${todo.id}`} checked= {todo.completed} 
-                    onChange={()=> toggleTodoAsCompleted(todo.id)}
+                    onChange={()=> toggleTodoAsCompleted(todo.id)}  
                   /> 
+                 
                   <label htmlFor={`todo-${todo.id}`}className='task' >{todo.task}</label>
                   
                   {
